@@ -1,7 +1,35 @@
-#main-image {
-
+body {
+  background-color: #777;
 }
 
-#coming-soon {
+header {
+}
 
+.container {
+  background-color: #000;
+  text-align: center;
+  height: 100%;
+}
+
+.banner {
+  background-color: #d33;
+}
+
+.content {
+  height: 100%;
+}
+
+.coming-soon {
+  font-size: 5em;
+  font-family: 'Julius Sans One', sans-serif;
+  padding: 8 0;
+  margin: 0;
+  font-weight: bold;
+  color: #fff;
+}
+
+.email-blurb {
+  font-size: 1.4em;
+  color: #fff;
+  font-family: 'Julius Sans One', sans-serif;
 }
