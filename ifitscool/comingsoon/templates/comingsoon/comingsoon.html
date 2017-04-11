@@ -7,6 +7,7 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Julius+Sans+One">
+  <link rel="stylesheet" href="{% static 'font-awesome-4.7.0/css/font-awesome.min.css' %}">
   <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
   <link rel="stylesheet" href="{% static 'comingsoon/css/comingsoon.css' %}">
 </head>
@@ -16,6 +17,11 @@
     <div class="col">
       <img class="main-img" src="{% static 'comingsoon/img/logo.jpg' %}" alt="If It's Cool">
       <h2 class="coming-soon">COMING SOON</h2>
+      <ul class="social-media">
+        <li class = "social-media-li"><a href="https://facebook.com/"><i class="social-media-icon fa fa-facebook-square"></i></a></li>
+        <li class = "social-media-li"><a href="https://twitter.com/"><i class="social-media-icon fa fa-twitter"></i></a></li>
+        <li class = "social-media-li"><a href="https://instagram.com/"><i class="social-media-icon fa fa-instagram"></i> </a></li>
+      </ul>
       {% include 'comingsoon/subscribe.html' %}
     </div>
   </div>
