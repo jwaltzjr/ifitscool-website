@@ -24,6 +24,8 @@ body {
 .main-img {
   width: 250px;
   height: 250px;
+  border: 1px solid #888;
+  margin: 10px;
 }
 
 .coming-soon {
