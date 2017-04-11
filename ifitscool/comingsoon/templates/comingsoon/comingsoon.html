@@ -7,18 +7,14 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Julius+Sans+One">
-{#   <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
-  <link rel="stylesheet" href="{% static 'comingsoon/css/comingsoon.css' %}"> #}
+  <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+  <link rel="stylesheet" href="{% static 'comingsoon/css/comingsoon.css' %}">
 </head>
 <body>
 <div class="container">
-  <header class="row">
-    <img class="main-img" src="{% static 'comingsoon/img/logo.jpg' %}" alt="If It's Cool">
-  </header>
   <div class="row banner">
+    <img class="main-img" src="{% static 'comingsoon/img/logo.jpg' %}" alt="If It's Cool">
     <h2 class="coming-soon">COMING SOON</h2>
-  </div>
-  <div class="row content">
     {% include 'comingsoon/subscribe.html' %}
   </div>
 </div>
