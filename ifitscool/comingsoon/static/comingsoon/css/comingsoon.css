@@ -17,35 +17,30 @@ body {
 .banner {
   max-width: 850px;
   margin: auto;
-  background: rgba(0,0,0,0.6)
-}
-
-/*.main-img {
-  opacity: 1;
-}*/
-
-/*.content {
+  background: rgba(0,0,0,0.5);
   height: 100%;
 }
-*/
+
+.main-img {
+  width: 250px;
+  height: 250px;
+}
+
 .coming-soon {
-  font-size: 5em;
+  font-size: 4em;
   font-family: 'Julius Sans One', sans-serif;
   padding: 8 0;
   margin: 0;
   font-weight: bold;
-  color: #000;
-  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  color: #fff;
+  /*text-shadow: -0.6px 0 #888, 0 0.6px #888, 0.6px 0 #888, 0 -0.6px #888;*/
 }
-
-/*.email-blurb {
-  font-size: 1.4em;
-  font-family: 'Julius Sans One', sans-serif;
-  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-}*/
 
 #mc_embed_signup{
   clear: left;
-  font: 14px Helvetica, Arial, sans-serif;
+  font-size: 1.4em;
+  font-family: 'Julius Sans One', sans-serif;
+  /*text-shadow: -0.6px 0 #888, 0 0.6px #888, 0.6px 0 #888, 0 -0.6px #888;*/
   width: 100%;
+  color: #fff;
 }

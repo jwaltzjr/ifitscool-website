@@ -13,9 +13,11 @@
 <body>
 <div class="container">
   <div class="row banner">
-    <img class="main-img" src="{% static 'comingsoon/img/logo.jpg' %}" alt="If It's Cool">
-    <h2 class="coming-soon">COMING SOON</h2>
-    {% include 'comingsoon/subscribe.html' %}
+    <div class="col">
+      <img class="main-img" src="{% static 'comingsoon/img/logo.jpg' %}" alt="If It's Cool">
+      <h2 class="coming-soon">COMING SOON</h2>
+      {% include 'comingsoon/subscribe.html' %}
+    </div>
   </div>
 </div>
 </body>
