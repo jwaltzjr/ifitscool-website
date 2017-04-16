@@ -25,7 +25,10 @@ SECRET_KEY = os.getenv('IFITSCOOLKEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['162.243.202.15']
+ALLOWED_HOSTS = [
+    'ifitscoolband.com',
+    '162.243.202.15'
+]
 
 
 # Application definition
