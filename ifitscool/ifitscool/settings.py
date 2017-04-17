@@ -27,6 +27,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = [
     'ifitscoolband.com',
+    'www.ifitscoolband.com',
     '162.243.202.15'
 ]
 
