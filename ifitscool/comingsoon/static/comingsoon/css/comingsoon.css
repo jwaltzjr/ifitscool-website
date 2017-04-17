@@ -8,11 +8,11 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
-
 .container {
   text-align: center;
   background: rgba(0,0,0,0.5);
   min-height: 100%;
+  color: #fff;
 }
 
 .banner {
@@ -34,7 +34,6 @@ body {
   padding: 8 0;
   margin: 0;
   font-weight: bold;
-  color: #fff;
   /*text-shadow: -0.6px 0 #888, 0 0.6px #888, 0.6px 0 #888, 0 -0.6px #888;*/
 }
 
@@ -68,4 +67,25 @@ body {
 
 .social-media-icon:hover {
   opacity: .7;
+}
+
+footer {
+  font-size: .8em;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+footer a:visited {
+  color: #fff;
+}
+
+footer a:hover {
+  color: #999;
+}
+
+footer a:active {
+  color: #666;
 }
